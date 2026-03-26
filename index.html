@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HireSphere | Modern Job Portal Management</title>
+    <meta name="description"
+        content="HireSphere - The ultimate management system for job seekers and employers. Connect, apply, and hire with ease.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="dark-theme">
+    <div id="app">
+        <!-- Navigation -->
+        <nav class="glass-nav">
+            <div class="nav-container">
+                <div class="logo" id="home-btn">
+                    <span class="logo-icon">H</span>
+                    <span class="logo-text">HireSphere</span>
+                </div>
+                <div class="nav-links">
+                    <a href="#" data-view="jobs">Find Jobs</a>
+                    <a href="#" data-view="about">Why Us?</a>
+                    <button class="btn btn-primary" id="login-trigger">Get Started</button>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main Content Area -->
+        <main id="main-content">
+            <!-- Content will be dynamically rendered here -->
+        </main>
+
+        <!-- Dynamic Modals -->
+        <div id="modal-container" class="modal-overlay hidden">
+            <div class="modal-content glass-card">
+                <button class="close-modal">&times;</button>
+                <div id="modal-body"></div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-content">
+                <p>&copy; 2026 HireSphere AI. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
